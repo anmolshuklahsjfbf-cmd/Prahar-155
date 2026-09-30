@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment and IDE
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vite & TypeScript
+*.tsbuildinfo
+.vite/
+frontend/.vite/
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
