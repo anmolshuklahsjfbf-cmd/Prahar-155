@@ -5,7 +5,7 @@ import {
   MonteCarloResponse,
 } from '../types/simulation';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://prahar-155.onrender.com';
 
 export async function checkBackendHealth(): Promise<{ status: string; service: string }> {
   try {
