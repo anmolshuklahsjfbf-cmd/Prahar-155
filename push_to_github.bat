@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 echo =====================================================================
 echo  Pushing Precision Guidance Platform to GitHub:
-echo  Repository: https://github.com/devanshsingh6871-ops/Prahar-155
+echo  Repository: https://github.com/devanshsingh6871-ops/prahar-155m
 echo =====================================================================
 echo.
 
@@ -12,7 +12,7 @@ cd /d "%~dp0"
 :: 1. Ensure remote is correct
 echo [1/3] Setting remote origin...
 git remote remove origin >nul 2>nul
-git remote add origin https://github.com/devanshsingh6871-ops/Prahar-155.git
+git remote add origin https://github.com/devanshsingh6871-ops/prahar-155m.git
 git branch -M main
 
 :: 2. Stage and commit any latest changes
@@ -31,7 +31,7 @@ if %errorlevel% equ 0 (
     echo =====================================================================
     echo  SUCCESSFULLY PUSHED TO GITHUB!
     echo  View your repository at:
-    echo  https://github.com/devanshsingh6871-ops/Prahar-155
+    echo  https://github.com/devanshsingh6871-ops/prahar-155m
     echo =====================================================================
 ) else (
     echo.
